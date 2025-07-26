@@ -12,3 +12,9 @@ jobs:
     - name: Random job (Who cares for the second time?)
       run: echo 'Some random person":" I do'
 
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Log README
+      run: cat README.md
+
