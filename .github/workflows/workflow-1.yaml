@@ -1,6 +1,14 @@
 name: First workflow example
 on:
-  - push
+- push
 
 jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Random job (Who cares?)
+      run: echo 'Who cares?":" Nobody'
+
+    - name: Random job (Who cares for the second time?)
+      run: echo 'Some random person":" I do'
 
