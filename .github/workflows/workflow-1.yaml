@@ -1,0 +1,6 @@
+name: First workflow example
+on:
+  - push
+
+jobs:
+
